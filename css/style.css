@@ -1,0 +1,76 @@
+html, body{
+  background-color: rgb(50,50,50);
+  background: url('http://500.co/wp-content/uploads/2015/04/5525029805b1f4e24074b6a8.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center top;
+  font-family: sans-serif;
+  color: white;
+  height: 100%;
+  margin: 0;
+}
+
+.info{
+  background-color: rgba(50,50,50,0.66);
+  max-width: 400px;
+  min-height: 100%;
+  padding: 5px 30px 30px 30px;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(50,50,50,0.6);
+}
+
+select, #degrees{
+  display: inline-block;
+  margin: 12px auto;
+  padding: 2px 8px 2px 8px;
+  box-shadow: 2px 2px 2px rgba(50,50,50,0.4);
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-radius: 4px;
+  min-width: 40px;
+}
+
+.inforow{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+}
+
+.header{
+  text-align: center;
+}
+
+#currentTime{
+  font-size: 0.85em;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+}
+
+h4{
+  text-align: right;
+  display: inline;
+}
+
+p{
+  display: inline;
+}
+
+#theDate{
+  display: block;
+  text-align: center;
+  font-size: 0.95em;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+img{
+  position: relative;
+  top: -6px;
+  margin-bottom: -18px;
+}
